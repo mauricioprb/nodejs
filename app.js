@@ -14,6 +14,7 @@ app.get("/login", function(req, res) {
 // Criando rota com parâmetros
 // Criação do parâmetro: /:parametro
 app.get("/usuario/:nome/:cargo", function(req, res) {
+    // Função send pode ser chamada somente uma vez
     res.send("Olá, " + req.params.nome + ". Seu cargo é " + req.params.cargo)
 })
 
