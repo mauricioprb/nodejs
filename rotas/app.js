@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
 
 // Criando rota para uma página alternativa da principal
 app.get("/login", function(req, res) {
-    res.send("Página de login")
+    res.send("oi")
 })
 
 // Criando rota com parâmetros
